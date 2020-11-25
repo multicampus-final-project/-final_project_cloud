@@ -33,3 +33,8 @@
 - Amazon Cognito, API Gateway
 - PostgreSQL, Amazon RDS
 
+
+
+### 서비스 아키텍처
+
+![아키텍처](\img\아키텍처.jpg)
