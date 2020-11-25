@@ -12,3 +12,24 @@
 |                               |                               |                               |                               |                               |
 |                               |                               |                               |                               |                               |
 
+
+## 기획안
+
+
+
+### 클라우드 필수 기능
+
+- IoT 기기 데이터 MQTT로 전송(데이터 중계, 통신)
+- DB 서버 관리 (로그 데이터 관리)
+- 인터페이스제공RESTful API 개발 및 연동 (사용자 관리, 포인트적립, 재활용 현황 모니터링, 재활용 UI 제작)
+
+
+
+### 포함 기술
+
+- AWS IoT Core
+- AWS Lambda
+- Auto Scaling
+- Amazon Cognito, API Gateway
+- PostgreSQL, Amazon RDS
+
