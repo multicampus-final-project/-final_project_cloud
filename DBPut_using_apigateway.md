@@ -1,35 +1,4 @@
-# Serverless framework 설치 및 설정
-
-### serverless-admin 사용자
-
-- AKIAQGFBSRY76SOCBMNL
-- jKdUpEdmcvX6qhaKaWPJRaqn0p1Y4Ntim9PBT4D5
-
-
-
-### DynamoDB
-
-Users - User
-
-- arn:aws:dynamodb:us-east-1:013223759423:table/Users
-
-
-
-### S3 버킷 웹사이트 정적 호스팅 엔드포인드
-
-http://web-hosting-practice.s3-website-us-east-1.amazonaws.com
-
-
-
-### API gateway 리소스
-
-https://m0f4ypidu8.execute-api.us-east-1.amazonaws.com/dev/user
-
-
-
-
-
-## 정적 웹 호스팅해서 POST request로 DynamoDB에 데이터 추가하는 방법
+# 정적 웹 호스팅해서 POST request로 DynamoDB에 데이터 추가하는 방법
 
 
 
@@ -250,3 +219,4 @@ exports.handler = function(event, context, callback) {
 - dynamodb에 값이 저장되었고, console 에서 성공 메시지를 확인
 
 ![PutItemTest](.\img\putUserTest.PNG)
+
