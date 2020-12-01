@@ -218,4 +218,5 @@ exports.handler = function(event, context, callback) {
 - name, email, phone을 영어로 입력 (현재 한글 인코딩이 안되는 상태) 하고 create 버튼 클릭
 - dynamodb에 값이 저장되었고, console 에서 성공 메시지를 확인
 
-![PutItemTest](.\img\putUserTest)
+![PutItemTest](.\img\putUserTest.PNG)
+
