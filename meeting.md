@@ -169,7 +169,14 @@
 - 카메라 위치 / 조명 정하기
 - 대시보드 웹 내용 & 필요한 데이터
 
+- 
 
 
 
+# 회의록 201201
 
+
+
+- DynamoDB + Lambda + API gateway - [Put Item test](./DBPut_using_apigateway.md)
+
+  
