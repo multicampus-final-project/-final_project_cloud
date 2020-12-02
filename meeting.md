@@ -231,4 +231,22 @@
 
 - DynamoDB + Lambda + API gateway - [Put Item test](./DBPut_using_apigateway.md)
 
-  
+
+
+
+# 회의록 201202
+
+
+
+- AWS RDS 테스트
+
+  - AWS RDS postgresql 데이터베이스 생성
+
+  - postgresql을 pgadmin4와 연동하여 쿼리문 작성 테스트
+
+  - Lambda 함수에서 AWS RDS 로 쿼리문 작성 테스트 (진행중)
+
+    - 문제점: python 모듈 psycopg2 호출 실패
+
+    - 시도하고 있는 방법: serverless framework 로 lambda함수를 작성하고 배포할 때 psycopg2를 포함하여 배포
+
