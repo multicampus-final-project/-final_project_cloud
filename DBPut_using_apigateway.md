@@ -1,17 +1,13 @@
 # Serverless framework 설치 및 설정
 
+
+
 ### serverless-admin 사용자
 
 - AKIAQGFBSRY76SOCBMNL
 - jKdUpEdmcvX6qhaKaWPJRaqn0p1Y4Ntim9PBT4D5
 
 
-
-### DynamoDB
-
-Users - User
-
-- arn:aws:dynamodb:us-east-1:013223759423:table/Users
 
 
 
