@@ -212,6 +212,10 @@
 - 라즈베리파이가 아두이노와 통신하여 아두이노가 하드웨어 제어하지 않고,
 
   라즈베리파이가 직접 하드웨어를 제어하도록 수정
+  
+- 라즈베리파이 카메라로부터 받아온 이미지를 AWS IoT Core를 통해 S3 버킷에 저장하지 않고,
+
+  라즈베리파이에서 S3 버킷으로 바로 전송하도록 수정
 
 
 
@@ -229,8 +233,9 @@
 
 
 
-- DynamoDB + Lambda + API gateway - [Put Item test](./DBPut_using_apigateway.md)
+- DynamoDB + Lambda + API Gateway - [Put Item test](./DBPut_using_apigateway.md)
 
+- API Gateway 웹 배포 테스트 - [API Gateway  S3 Proxy](./API게이트웨이 S3 프록시.md)
 
 
 
