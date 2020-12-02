@@ -235,7 +235,7 @@
 
 - DynamoDB + Lambda + API Gateway - [Put Item test](./DBPut_using_apigateway.md)
 
-- API Gateway 웹 배포 테스트 - [API Gateway  S3 Proxy](./API게이트웨이 S3 프록시.md)
+- API Gateway 웹 배포 테스트 - [API Gateway  S3 Proxy](./APIgateway_S3_proxy.md)
 
 
 
@@ -252,6 +252,11 @@
   - Lambda 함수에서 AWS RDS 로 쿼리문 작성 테스트 (진행중)
 
     - 문제점: python 모듈 psycopg2 호출 실패
-
-    - 시도하고 있는 방법: serverless framework 로 lambda함수를 작성하고 배포할 때 psycopg2를 포함하여 배포
+- 시도하고 있는 방법: serverless framework 로 lambda함수를 작성하고 배포할 때 psycopg2를 포함하여 배포
+- AWS API Gateway 웹 배포 테스트
+  - AWS API Gateway 생성
+  - API Gateway 배포를 통해 테스트 웹 띄우기
+  - 회원가입(DynamoDB 연동 테스트) 페이지도 API Gateway에 적용
+    - 문제: 배포시 'No integration defined for method' 오류 발생하며 배포되지 않음
+    - 해결: 리소스 계층 수정(참고: https://docs.aws.amazon.com/apigateway/latest/developerguide/integrating-api-with-aws-services-s3.html)
 
