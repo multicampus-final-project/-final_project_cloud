@@ -260,3 +260,11 @@
     - 문제: 배포시 'No integration defined for method' 오류 발생하며 배포되지 않음
     - 해결: 리소스 계층 수정(참고: https://docs.aws.amazon.com/apigateway/latest/developerguide/integrating-api-with-aws-services-s3.html)
 
+
+
+# 회의록 201203
+
+
+
+- 사용자 웹 템플릿 구성
+- ER 다이어그램 수정 [ERD](https://www.erdcloud.com/d/n3ZEGRPFs634QvCTd)
