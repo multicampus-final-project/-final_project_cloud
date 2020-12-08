@@ -85,7 +85,7 @@
 
 
 
-![image-20201205171134518](F:/-final_project_cloud/img/유리병분리수거1.png)
+![image-20201205171134518](./img/유리병분리수거1.png)
 
-![image-20201205171246134](F:/-final_project_cloud/img/유리병분리수거2.png)
+![image-20201205171246134](./img/유리병분리수거2.png)
 

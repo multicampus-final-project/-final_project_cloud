@@ -268,3 +268,37 @@
 
 - 사용자 웹 템플릿 구성
 - ER 다이어그램 수정 [ERD](https://www.erdcloud.com/d/n3ZEGRPFs634QvCTd)
+
+
+
+# 회의록 201204
+
+
+
+- AWS RDS 에 postgre 구축
+- amplify 로 자동 배포
+
+
+
+# 회의록 201205
+
+
+
+- 하드웨어 (분리수거함) 제단해서 만들기
+- 이물질 들어 있는 공병 촬영
+
+
+
+# 회의록 201208
+
+
+
+- RDS lambda에서 연동
+  - https://github.com/jetbridge/psycopg2-lambda-layer
+  - lambda 함수에 psycopg2 layer 추가해서 해결
+- RDS django - dashboard 와 연동
+  - secrets.json 으로 시크릿 키 별도 관리
+- django - dashboard setting
+
+
+
