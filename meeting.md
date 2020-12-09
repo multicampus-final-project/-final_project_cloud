@@ -302,3 +302,22 @@
 
 
 
+# 회의록 201209
+
+
+
+- 라즈베리파이 -> S3 로 촬영한 이미지 전송 -> 새 이미지에 대해 Lambda함수 호출 -> Image 명에서 데이터 추출해서 DB에 저장
+
+  - Lambda 로 postgresql에 데이터 insert
+
+  - ```
+    insert into class2 values(%s, '%s', %s);
+    ```
+
+  - 해결: `'%s'` 로 insert
+
+  - python datetime -> postgre timestamptz 로 insert하는 것 성공
+
+- Amplify 로 사용자 인증 (진행중)
+
+- IoT MQTT -> AWS IoT Core 주제 구독 -> 규칙에서 Lambda 호출 -> email로 알림 전송 
